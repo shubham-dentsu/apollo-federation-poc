@@ -1,5 +1,5 @@
-[![Generic badge](https://img.shields.io/badge/Build-Passing-<COLOR>.svg)](https://shields.io/) 
-[![Generic badge](https://img.shields.io/badge/Coverage-0%-red.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/build-Passing-<COLOR>.svg)](https://shields.io/) 
+[![Generic badge](https://img.shields.io/badge/coverage-0%25-red.svg)](https://shields.io/)
 
 <h1 allign="center">Apollo Federation POC</h1>
 
