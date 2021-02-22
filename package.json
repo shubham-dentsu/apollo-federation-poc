@@ -2,7 +2,6 @@
   "name": "apollo-federation-poc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "server": "concurrently -k -s last \"npm:server:*\" \"npm run gateway\"",
     "server:clients": "nodemon Clients/service.js",
@@ -11,9 +10,9 @@
     "server:clients_graphql": "nodemon Clients/graphql.js",
     "server:users_graphql": "nodemon Users/graphql.js",
     "server:tmp_graphql": "nodemon TMP/graphql.js",
-    "gateway": "nodemon gateway/gateway.js"
+    "gateway": "nodemon Gateway/gateway.js"
   },
-  "author": "",
+  "author": "Shubham Joshi",
   "license": "ISC",
   "dependencies": {
     "@apollo/gateway": "0.23.0",

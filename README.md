@@ -1,4 +1,5 @@
-/appveyor/build/:user/:repo
+[![Generic badge](https://img.shields.io/badge/Build-Passing-<COLOR>.svg)](https://shields.io/)
+[![Maintenance](https://img.shields.io/badge/Coverage-0%-red.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 <h1 allign="center">Apollo Federation POC</h1>
 
@@ -18,7 +19,7 @@ We have
 - TMP - Responsible for generating client code and user id. It is consuming User and Clients to get further details.
 
 Each consists of their `service` and `graphql server`.
-Hmmm then whats special about it?
+Hmmm, then whats special about it :thinking:?
 
 It has `Gateway`.
 
