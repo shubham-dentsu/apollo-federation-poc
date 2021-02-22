@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "",
     "server": "concurrently -k -s last \"npm:server:*\" \"npm run gateway\"",
     "server:clients": "nodemon Clients/service.js",
     "server:users": "nodemon Users/service.js",
